@@ -31,7 +31,7 @@ const Obj = {
 }
  */
 
-// aşağıdaki function da çalıştı. Ancak arrow function çalışmıyor.
+// below function doesnt work with arrow function!
 function func1() {
     console.log(`this.number1: ${this.number1}, this.number2: ${this.number2}`);
     this.number1 *= 2;
